@@ -13,14 +13,14 @@ reference_shape = (256, 256, 1)
 def get_data(image_s_path, dim=256, n_samples=1):
     im_array = []
     shape = (dim, dim)
-    if len(os.listdir(image_s_path)) != 1:
+    if os.path.isdir(image_s_path):
         test_files = random.choices(list(os.listdir(image_s_path)), k=n_samples)
         for i in tqdm(test_files):
             im = cv2.imread(os.path.join(image_s_path, i))
             im = cv2.resize(im, shape)[:, :, 0]
             im = cv2.equalizeHist(im)
             im_array.append(im)
-    else:
+    elif os.path.isfile(image_s_path):
         im = cv2.imread(os.path.join(image_s_path))
         im = cv2.resize(im, shape)[:, :, 0]
         im = cv2.equalizeHist(im)
