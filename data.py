@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 reference_shape = (256, 256, 1)
 
 # run locally (NOT in streamlit)
-def get_data(image_s_path, dim=256, n_samples=1):
+def get_data(image_s_path, dim=256, n_samples=1, pre_process=False):
     im_array = []
     shape = (dim, dim)
     if os.path.isdir(image_s_path):
@@ -18,12 +18,14 @@ def get_data(image_s_path, dim=256, n_samples=1):
         for i in tqdm(test_files):
             im = cv2.imread(os.path.join(image_s_path, i))
             im = cv2.resize(im, shape)[:, :, 0]
-            im = cv2.equalizeHist(im)
+            if pre_process:
+                im = cv2.equalizeHist(im)
             im_array.append(im)
     elif os.path.isfile(image_s_path):
         im = cv2.imread(os.path.join(image_s_path))
         im = cv2.resize(im, shape)[:, :, 0]
-        im = cv2.equalizeHist(im)
+        if pre_process:
+            im = cv2.equalizeHist(im)
         im_array.append(im)
     # reshape & normalize
     im_array = np.array(im_array).reshape(len(im_array), dim, dim, 1)

@@ -23,7 +23,7 @@ def decoder(pretrained_weights=None):
     x = Dropout(0.1)(x)
     x = Reshape((128, 128, 128))(x)
 
-    x = Conv2DTranspose(64, (3, 3), padding='same', activation='relu',strides=(2, 2))(x)
+    x = Conv2DTranspose(64, (3, 3), padding='same', activation='relu', strides=(2, 2))(x)
     x = Conv2DTranspose(1, (3, 3), padding='same', activation='sigmoid', name='decoder_output')(x)
     model = Model(decoder_input, x, name='decoder')
 

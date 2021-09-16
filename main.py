@@ -2,6 +2,7 @@ from resunet import *
 from unet import *
 from data import *
 from vae import decoder
+from visualization import visualize_vae
 import streamlit as st
 
 st.write("""
@@ -73,25 +74,8 @@ elif model_name == "Autoencoder (VAE)":
     decoder = decoder(pretrained_weights="weigths/decoder.hdf5")
 
     if (vae_range != 0) and (output_number != 0):
-        dim = 256
-        figure = np.zeros((dim * output_number, dim * output_number, 1))
+        figure = visualize_vae(decoder, output_number, vae_range)
 
-        grid_x = np.linspace(-vae_range, vae_range, output_number)
-        grid_y = np.linspace(-vae_range, vae_range, output_number)[::-1]
-
-        # decoder for each square in the grid
-        for i, yi in enumerate(grid_y):
-            for j, xi in enumerate(grid_x):
-                z_sample = np.array([[xi, yi]])
-                x_decoded = decoder.predict(z_sample)
-                digit = x_decoded[0].reshape(dim, dim, 1)
-                figure[i * dim: (i + 1) * dim,
-                j * dim: (j + 1) * dim] = digit
-
-        plt.figure(figsize=(10, 10))
-        # Reshape for visualization
-        fig_shape = np.shape(figure)
-        figure = figure.reshape((fig_shape[0], fig_shape[1]))
         st.write("""
                     ### Generated Image(s)
                     -----------------------
