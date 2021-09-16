@@ -23,9 +23,11 @@ https://www.kaggle.com/nikhilpandey360/chest-xray-masks-and-labels
 _pretrained weights are stored in weights folder_
 
 # Usage
-#### run **run.sh** in files
+    chmod +x ./run.sh
 or 
-#### streamlit run ./main.py
+
+    streamlit run ./main.py
+
 Automatically open up this link
 * Local URL: http://localhost:8502
 
@@ -40,5 +42,23 @@ Automatically open up this link
 
 # Variational Autoencoders (VAE)
 ![Screenshot from 2021-09-15 16-21-59](https://user-images.githubusercontent.com/73995528/133428563-3f6eb493-824f-4498-a586-7eb6acdfc103.png)
+--------------------------------------------------------------------
+
+# Parser
+    python service.py -h
+| small flag  |  flag     | Description     |
+| :---        |    :----: |          ---: |
+|-h| --help|            show this help message and exit|
+|-p | --path|           Path to Image [images/00000165_008.png]|
+|-d| --dhe |            Select Pre-Process|
+|-n | --n_samples|      Number of Output [1, as many as in folder path]|
+|-S| --streamlit   |    Run App|
+|-U| --unet       |     Select U-Net|
+|-R| --resunet     |    Select Residual U-Net|
+|-V| --vae          |   Select Variational Autoencoder|
+|-vr | --vae_range   |  Autoencoder Range [1, 20]|
+|-on | --output_number| Number of Output [1, 20]|
+
+**all outputs stored in output directory**
 
 https://github.com/pejmanS21/LungSegmentation_Streamlit.git
