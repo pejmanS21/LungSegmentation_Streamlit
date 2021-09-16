@@ -47,7 +47,7 @@ Automatically open up this link
 # Parser
     python service.py -h
 | small flag  |  flag     | Description     |
-| :---        |    :----: |          ---: |
+| :----:      |    :----: |     :---:      |
 |-h| --help|            show this help message and exit|
 |-p | --path|           Path to Image [images/00000165_008.png]|
 |-d| --dhe |            Select Pre-Process|
