@@ -10,3 +10,4 @@ scikit-learn
 matplotlib
 scikit-image
 streamlit
+Flask
