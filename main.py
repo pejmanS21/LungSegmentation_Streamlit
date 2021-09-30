@@ -4,7 +4,7 @@ from data import *
 from vae import decoder
 from visualization import visualize_vae
 import streamlit as st
-
+# UI
 st.write("""
     # Lung Segmentation App
     **Chest Xray**
@@ -12,10 +12,11 @@ st.write("""
 # select model
 model_runet = ResUnet_Builder(pretrained_weights="weigths/cxr_seg_res_unet.hdf5",
                               input_size=(256, 256, 1))
-model_unet = Unet_Builder(pretrained_weights="weigths/cxr_seg_unet.hdf5", 
+model_unet = Unet_Builder(pretrained_weights="weigths/cxr_seg_unet.hdf5",
                               input_size=(256, 256, 1))
 model_decoder = decoder(pretrained_weights="weigths/decoder.hdf5")
 
+"""select a model"""
 model_name = st.sidebar.selectbox(
     'Select model',
     [None, "U-Net", "Residual U-Net", "Autoencoder (VAE)"])
