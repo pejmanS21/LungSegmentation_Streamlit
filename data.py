@@ -11,6 +11,13 @@ reference_shape = (256, 256, 1)
 
 # run locally (NOT in streamlit)
 def get_data(image_s_path, dim=256, n_samples=1, pre_process=False):
+    """
+        load images for models when you run in your local system.
+        :image_s_path: where is image
+        :dim: shape of image 
+        :n_samples: number of loaded image(s)
+        :pre_process: pre-process for loaded images {DHE:True, Original: False}
+    """
     im_array = []
     shape = (dim, dim)
     if os.path.isdir(image_s_path):
@@ -34,6 +41,12 @@ def get_data(image_s_path, dim=256, n_samples=1, pre_process=False):
 
 # run on streamlit
 def load_data(image, pre_process="Original", dim=256):
+    """
+        load images for models when you run streamlit.
+        :image: uploaded image in streamlit.
+        :dim: shape of image 
+        :pre_process: pre-process for loaded images (DHE or Original)
+    """
     image = ImageOps.fit(image, (dim, dim))
     image = np.asarray(image)
     # pil to cv

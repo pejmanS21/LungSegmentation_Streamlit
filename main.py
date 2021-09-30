@@ -1,5 +1,5 @@
-from resunet import *
-from unet import *
+from resunet import ResUnet_Builder
+from unet import Unet_Builder
 from data import *
 from vae import decoder
 from visualization import visualize_vae
@@ -10,8 +10,10 @@ st.write("""
     **Chest Xray**
 """)
 # select model
-model_runet = ResUNet(pretrained_weights="weigths/cxr_seg_res_unet.hdf5")
-model_unet = unet(pretrained_weights="weigths/cxr_seg_unet.hdf5")
+model_runet = ResUnet_Builder(pretrained_weights="weigths/cxr_seg_res_unet.hdf5",
+                              input_size=(256, 256, 1))
+model_unet = Unet_Builder(pretrained_weights="weigths/cxr_seg_unet.hdf5", 
+                              input_size=(256, 256, 1))
 model_decoder = decoder(pretrained_weights="weigths/decoder.hdf5")
 
 model_name = st.sidebar.selectbox(

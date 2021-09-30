@@ -26,11 +26,12 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     if args.unet:
-        from unet import *
+        from unet import Unet_Builder
 
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = unet(pretrained_weights='weigths/cxr_seg_unet.hdf5')
+        model = Unet_Builder(pretrained_weights='weigths/cxr_seg_unet.hdf5',
+                             input_size=(256, 256, 1))
 
         predicted = model.predict(X)
         visualize_output(X, predicted)
@@ -38,11 +39,12 @@ if __name__ == '__main__':
         print("Code Complete!")
 
     elif args.resunet:
-        from resunet import *
+        from resunet import ResUnet_Builder
 
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = ResUNet(pretrained_weights='weigths/cxr_seg_res_unet.hdf5')
+        model = ResUnet_Builder(pretrained_weights='weigths/cxr_seg_res_unet.hdf5',
+                                input_size=(256, 256, 1))
 
         predicted = model.predict(X)
         visualize_output(X, predicted)
