@@ -10,11 +10,11 @@ st.write("""
     **Chest Xray**
 """)
 # select model
-model_runet = ResUnet_Builder(pretrained_weights="weigths/cxr_seg_res_unet.hdf5",
+model_runet = ResUnet_Builder(pretrained_weights="../weigths/cxr_seg_res_unet.hdf5",
                               input_size=(256, 256, 1))
-model_unet = Unet_Builder(pretrained_weights="weigths/cxr_seg_unet.hdf5",
+model_unet = Unet_Builder(pretrained_weights="../weigths/cxr_seg_unet.hdf5",
                               input_size=(256, 256, 1))
-model_decoder = decoder(pretrained_weights="weigths/decoder.hdf5")
+model_decoder = decoder(pretrained_weights="../weigths/decoder.hdf5")
 
 """select a model"""
 model_name = st.sidebar.selectbox(

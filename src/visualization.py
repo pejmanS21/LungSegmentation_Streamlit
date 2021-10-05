@@ -15,7 +15,7 @@ def visualize_output(X, predicted):
 
     fig_shape = np.shape(output_figure)
     output_figure = output_figure.reshape((fig_shape[0], fig_shape[1]))
-    cv2.imwrite('output/output_figure.png', output_figure)
+    cv2.imwrite('../images/output_figure.png', output_figure)
 
 
 def visualize_vae(decoder, output_number, vae_range):
@@ -38,5 +38,5 @@ def visualize_vae(decoder, output_number, vae_range):
     # Reshape for visualization
     fig_shape = np.shape(figure)
     figure = figure.reshape((fig_shape[0], fig_shape[1]))
-    cv2.imwrite('output/output_vae.png', figure * 255.)
+    cv2.imwrite('../images/output_vae.png', figure * 255.)
     return figure

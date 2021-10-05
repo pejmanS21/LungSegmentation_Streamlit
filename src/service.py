@@ -5,7 +5,7 @@ import argparse
 parser = argparse.ArgumentParser(description="CXR Segmentation & Autoencoder")
 
 parser.add_argument('-p', '--path', type=str, metavar='',
-                    default="images/00000165_008.png", help='Path to Image [images/00000165_008.png]')
+                    default="../images/00000165_008.png", help='Path to Image [../images/00000165_008.png]')
 
 process = parser.add_mutually_exclusive_group()
 process.add_argument('-d', '--dhe', action='store_true', help='Select Pre-Process')
@@ -30,12 +30,12 @@ if __name__ == '__main__':
 
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = Unet_Builder(pretrained_weights='weigths/cxr_seg_unet.hdf5',
+        model = Unet_Builder(pretrained_weights='../weigths/cxr_seg_unet.hdf5',
                              input_size=(256, 256, 1))
 
         predicted = model.predict(X)
         visualize_output(X, predicted)
-        print("\n\noutput stored in output/output_figure.png")
+        print("\n\noutput stored in images/output_figure.png")
         print("Code Complete!")
 
     elif args.resunet:
@@ -43,22 +43,22 @@ if __name__ == '__main__':
 
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = ResUnet_Builder(pretrained_weights='weigths/cxr_seg_res_unet.hdf5',
+        model = ResUnet_Builder(pretrained_weights='../weigths/cxr_seg_res_unet.hdf5',
                                 input_size=(256, 256, 1))
 
         predicted = model.predict(X)
         visualize_output(X, predicted)
-        print("\n\noutput stored in output/output_figure.png")
+        print("\n\noutput stored in images/output_figure.png")
         print("Code Complete!")
 
     elif args.vae:
         from vae import decoder
 
-        decoder = decoder(pretrained_weights="weigths/decoder.hdf5")
+        decoder = decoder(pretrained_weights="../weigths/decoder.hdf5")
 
         if (args.vae_range != 0) and (args.output_number != 0):
             visualize_vae(decoder, args.output_number, args.vae_range)
-            print("\n\noutput stored in output/output_vae.png")
+            print("\n\noutput stored in images/output_vae.png")
             print("Code Complete!")
         else:
             print("Wrong inputs")
