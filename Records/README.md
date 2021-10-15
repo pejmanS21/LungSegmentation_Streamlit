@@ -8,3 +8,10 @@ Each **directory** contains a `mlflow` folder that you can access to model resul
 
     chmod +x mlflowui.sh
     ./mlflowui.sh
+
+
+#### Downloads
+
+all mentioned `folders` stored here.
+
+https://drive.google.com/drive/folders/12l6YPNkqPdSM7a137rZT8XolpP6RMBFf?usp=sharing
