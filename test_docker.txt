@@ -1,0 +1,78 @@
+FROM python:3.6-slim-stretch
+# FROM python:3
+MAINTAINER Pejman
+RUN pip install virtualenv
+ENV VIRTUAL_ENV=/venv
+RUN virtualenv venv -p python3
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+RUN apt-get update
+RUN apt install -y libgl1-mesa-glx
+WORKDIR /app
+COPY . /app
+RUN python3 -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl
+RUN pip install -r requirements.txt
+WORKDIR /app/src/
+EXPOSE 5000
+EXPOSE 8501
+ENTRYPOINT [ "streamlit", "run" ]
+CMD [ "ui.py" ]
+
+
+# FROM python:3.8.3-alpine
+
+# RUN pip install --upgrade pip
+
+# RUN adduser -D myuser
+# USER myuser
+# WORKDIR /home/myuser
+
+# COPY --chown=myuser:myuser requirements.txt requirements.txt
+# RUN pip install --user -r requirements.txt
+
+# ENV PATH="/home/myuser/.local/bin:${PATH}"
+
+# COPY --chown=myuser:myuser . .
+# WORKDIR /home/myuser/src/
+# EXPOSE 5000
+# EXPOSE 8501
+# ENTRYPOINT [ "streamlit", "run" ]
+# CMD [ "ui.py" ]
+
+# FROM python:3.6-slim-stretch
+# MAINTAINER Pejman
+# RUN apt-get update
+# RUN apt-get upgrade -y
+# RUN apt-get install -y --fix-missing \
+#     build-essential \
+#     cmake \
+#     gfortran \
+#     git \
+#     wget \
+#     curl \
+#     graphicsmagick \
+#     libgraphicsmagick1-dev \
+#     libatlas-base-dev \
+#     libavcodec-dev \
+#     libavformat-dev \
+#     libgtk2.0-dev \
+#     libjpeg-dev \
+#     liblapack-dev \
+#     libswscale-dev \
+#     pkg-config \
+#     python3-dev \
+#     python3-numpy \
+#     software-properties-common \
+#     zip \
+#     && apt-get clean && rm -rf /tmp/* /var/tmp/*
+# COPY . /app
+# WORKDIR /app
+# RUN python -m pip install --upgrade pip
+# RUN python -m pip install setuptools wheel
+# RUN python -m pip install scikit-build
+# RUN python -m pip install cython
+# RUN python -m pip install -r requirements.txt
+# WORKDIR /app/src
+# EXPOSE 5000
+# EXPOSE 8501
+# ENTRYPOINT [ "streamlit", "run" ]
+# CMD [ "ui.py" ]
