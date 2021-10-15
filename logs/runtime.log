@@ -1,0 +1,417 @@
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:54:54,781:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5386426448822021
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:00,062:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5113825798034668
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:04,524:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7491023540496826
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:09,312:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7375245094299316
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 11:55:19,918:Streamlit_Server:Model: Autoencoder (VAE):Settings: 2, 4:Process time: 1.6398136615753174
+2021-10-11 13:51:23,648:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.1639115810394287
+2021-10-11 13:51:23,648:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.1639115810394287
+2021-10-11 13:51:23,648:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.1639115810394287
+2021-10-11 13:51:23,648:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.1639115810394287
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:18:00,405:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 3:Process time: 0.9187631607055664
+2021-10-11 14:42:42,643:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.9073705673217773
+2021-10-11 14:42:42,643:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.9073705673217773
+2021-10-11 14:42:42,643:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.9073705673217773
+2021-10-11 15:36:15,792:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5711886882781982
+2021-10-11 15:36:15,792:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5711886882781982
+2021-10-11 15:36:15,792:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.5711886882781982
+2021-10-11 15:36:22,535:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5360829830169678
+2021-10-11 15:36:22,535:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5360829830169678
+2021-10-11 15:36:22,535:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5360829830169678
+2021-10-11 15:36:22,535:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.5360829830169678
+2021-10-11 16:21:23,275:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8831961154937744
+2021-10-11 16:21:23,275:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8831961154937744
+2021-10-11 16:21:23,275:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8831961154937744
+2021-10-11 16:21:29,225:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8137636184692383
+2021-10-11 16:21:29,225:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8137636184692383
+2021-10-11 16:21:29,225:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8137636184692383
+2021-10-11 16:21:29,225:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8137636184692383
+2021-10-12 11:53:44,479:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.7354826927185059
+2021-10-12 11:53:44,479:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.7354826927185059
+2021-10-12 11:53:44,479:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.7354826927185059
+2021-10-12 11:53:44,479:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.7354826927185059
+2021-10-12 11:55:47,638:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.510432243347168
+2021-10-12 11:55:47,638:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.510432243347168
+2021-10-12 11:55:47,638:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.510432243347168
+2021-10-12 11:55:47,638:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.510432243347168
+2021-10-12 11:55:47,638:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.510432243347168
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:54,700:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 1.0436320304870605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:55:59,605:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8265910148620605
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 11:56:12,875:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.349309206008911
+2021-10-12 12:20:09,561:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.3848536014556885
+2021-10-12 12:20:09,561:Streamlit_Server:Model: Autoencoder (VAE):Settings: 3, 5:Process time: 2.3848536014556885
+2021-10-12 12:20:49,983:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7750194072723389
+2021-10-12 12:20:49,983:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7750194072723389
+2021-10-12 12:20:49,983:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7750194072723389
+2021-10-12 12:20:49,983:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7750194072723389
+2021-10-12 12:20:49,983:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7750194072723389
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:20:59,913:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7984139919281006
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:33:55,345:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.6311752796173096
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:00,605:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.48195886611938477
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:06,681:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.7483587265014648
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 12:34:10,813:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.8352317810058594
+2021-10-12 15:27:38,235:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.7674407958984375
+2021-10-12 15:27:38,235:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.7674407958984375
+2021-10-12 15:27:38,235:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 0.7674407958984375
+2021-10-12 15:27:43,243:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.4835355281829834
+2021-10-12 15:27:43,243:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.4835355281829834
+2021-10-12 15:27:43,243:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.4835355281829834
+2021-10-12 15:27:43,243:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 0.4835355281829834
+2021-10-12 15:38:23,283:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7981178760528564
+2021-10-12 15:38:23,283:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7981178760528564
+2021-10-12 15:38:23,283:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7981178760528564
+2021-10-12 15:38:23,283:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7981178760528564
+2021-10-12 15:38:23,283:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7981178760528564
+2021-10-12 18:05:20,093:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8357701301574707
+2021-10-12 18:05:20,093:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8357701301574707
+2021-10-12 18:05:20,093:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 0.8357701301574707
+2021-10-12 18:05:26,845:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7383708953857422
+2021-10-12 18:05:26,845:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7383708953857422
+2021-10-12 18:05:26,845:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7383708953857422
+2021-10-12 18:05:26,845:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 0.7383708953857422
+2021-10-13 11:44:42,567:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.9299840927124023
+2021-10-13 11:44:42,567:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.9299840927124023
+2021-10-13 11:44:42,567:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.9299840927124023
+2021-10-13 14:56:40,869:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.6084811687469482
+2021-10-13 14:56:40,869:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.6084811687469482
+2021-10-13 14:56:40,869:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.6084811687469482
+2021-10-13 14:56:40,869:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.6084811687469482
+2021-10-13 14:56:51,772:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.0663809776306152
+2021-10-13 14:56:51,772:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.0663809776306152
+2021-10-13 14:56:51,772:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.0663809776306152
+2021-10-13 14:56:51,772:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.0663809776306152
+2021-10-13 14:56:51,772:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.0663809776306152
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:09,220:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.191047430038452
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:34,525:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.086493968963623
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:57:52,688:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 1.9573712348937988
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:01,352:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0025570392608643
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 14:58:23,787:Streamlit_Server:Model: Residual U-Net:PreProcess: Original:Process time: 2.0565226078033447
+2021-10-13 15:01:51,539:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.3968143463134766
+2021-10-13 15:01:51,539:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.3968143463134766
+2021-10-13 15:01:51,539:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.3968143463134766
+2021-10-13 15:01:51,539:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.3968143463134766
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:02:57,812:Streamlit_Server:Model: Residual U-Net:PreProcess: DHE:Process time: 2.27117919921875
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:03:42,221:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.1097736358642578
+2021-10-13 15:46:49,496:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.4493591785430908
+2021-10-13 15:46:49,496:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.4493591785430908
+2021-10-13 15:46:49,496:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.4493591785430908
+2021-10-13 15:47:10,112:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.132103681564331
+2021-10-13 15:47:10,112:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.132103681564331
+2021-10-13 15:47:10,112:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.132103681564331
+2021-10-13 15:47:10,112:Streamlit_Server:Model: U-Net:PreProcess: DHE:Process time: 1.132103681564331
+2021-10-13 15:47:18,928:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.1507482528686523
+2021-10-13 15:47:18,928:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.1507482528686523
+2021-10-13 15:47:18,928:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.1507482528686523
+2021-10-13 15:47:18,928:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.1507482528686523
+2021-10-13 15:47:18,928:Streamlit_Server:Model: U-Net:PreProcess: Original:Process time: 1.1507482528686523
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:47:56,633:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 14.104665756225586
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:50:42,790:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 12:Process time: 16.086671113967896
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:52:53,576:Streamlit_Server:Model: Autoencoder (VAE):Settings: 7, 14:Process time: 20.39038109779358
+2021-10-13 15:56:38,178:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 15:Process time: 24.03096890449524
+2021-10-13 15:56:38,178:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 15:Process time: 24.03096890449524
+2021-10-13 15:56:38,178:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 15:Process time: 24.03096890449524
+2021-10-13 15:56:38,178:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 15:Process time: 24.03096890449524
+2021-10-13 15:59:45,424:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 8:Process time: 7.9055016040802
+2021-10-13 15:59:45,424:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 8:Process time: 7.9055016040802
+2021-10-13 15:59:45,424:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 8:Process time: 7.9055016040802
+2021-10-13 15:59:45,424:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 8:Process time: 7.9055016040802
+2021-10-13 15:59:45,424:Streamlit_Server:Model: Autoencoder (VAE):Settings: 5, 8:Process time: 7.9055016040802
+2021-10-13 16:01:45,254:Streamlit_Server:Model: Autoencoder (VAE):Settings: 15, 18:Process time: 31.18225932121277
+2021-10-13 16:01:45,254:Streamlit_Server:Model: Autoencoder (VAE):Settings: 15, 18:Process time: 31.18225932121277
+2021-10-13 16:01:45,254:Streamlit_Server:Model: Autoencoder (VAE):Settings: 15, 18:Process time: 31.18225932121277
+2021-10-13 16:01:45,254:Streamlit_Server:Model: Autoencoder (VAE):Settings: 15, 18:Process time: 31.18225932121277
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:25:38,145:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.510382890701294
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:26:42,058:Streamlit_Server:Model: Efficientnet-U-Net:PreProcess: Original:Process time: 3.441537380218506
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:27:42,327:Streamlit_Server::mlflow for: efficientnet
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-14 17:30:08,629:Streamlit_Server:Model: Residual U-Net:model type tflite:PreProcess: Original:Process time: 2.7445693016052246
+2021-10-15 11:00:08,081:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.6436946392059326
+2021-10-15 11:00:08,081:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.6436946392059326
+2021-10-15 11:00:08,081:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.6436946392059326
+2021-10-15 11:00:08,081:Streamlit_Server:Model: U-Net:model type H5:PreProcess: Original:Process time: 3.6436946392059326
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:00:57,430:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: Original:Process time: 2.688159465789795
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:01:46,281:Streamlit_Server:Model: U-Net:model type tflite:PreProcess: DHE:Process time: 2.5407519340515137
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:02,709:Streamlit_Server::mlflow for: resunet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:03:51,990:Streamlit_Server::mlflow for: unet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:04:55,882:Streamlit_Server::mlflow for: efficientnet
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU
+2021-10-15 11:05:50,968:Streamlit_Server::mlflow for: vggU

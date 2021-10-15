@@ -11,3 +11,6 @@ matplotlib
 scikit-image
 streamlit
 Flask
+psutil
+memory-profiler
+segmentation-models==1.0.1

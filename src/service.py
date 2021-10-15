@@ -26,45 +26,43 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     if args.unet:
-        from unet import Unet_Builder
+        print(args.unet)
+        from model_loader import *
+        model_unet = load_model("U-Net", pretrained=True)
 
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = Unet_Builder(pretrained_weights='../weigths/cxr_seg_unet.hdf5',
-                             input_size=(256, 256, 1))
-
-        predicted = model.predict(X)
+        
+        predicted = predict(model_unet, X)
         visualize_output(X, predicted)
         print("\n\noutput stored in images/output_figure.png")
         print("Code Complete!")
 
     elif args.resunet:
-        from resunet import ResUnet_Builder
-
+        from model_loader import *
+        model_runet = load_model("ResidualU", pretrained=True)
+        
         # X.shape = (n, 256, 256, 1)
         X = get_data(args.path, n_samples=args.n_samples, pre_process=args.dhe)
-        model = ResUnet_Builder(pretrained_weights='../weigths/cxr_seg_res_unet.hdf5',
-                                input_size=(256, 256, 1))
-
-        predicted = model.predict(X)
+        
+        predicted = predict(model_runet, X)
         visualize_output(X, predicted)
         print("\n\noutput stored in images/output_figure.png")
         print("Code Complete!")
 
     elif args.vae:
-        from vae import decoder
-
-        decoder = decoder(pretrained_weights="../weigths/decoder.hdf5")
+        from model_loader import *
+        model_decoder = load_model("Autoencoder (VAE)", pretrained=True)
 
         if (args.vae_range != 0) and (args.output_number != 0):
-            visualize_vae(decoder, args.output_number, args.vae_range)
+            visualize_vae(model_decoder, args.output_number, args.vae_range)
             print("\n\noutput stored in images/output_vae.png")
             print("Code Complete!")
         else:
             print("Wrong inputs")
 
     elif args.streamlit:
-        os.system('./run.sh')
+        os.system('../run.sh')
 
     else:
         print('Run "python service.py -h" for more information')

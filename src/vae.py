@@ -16,7 +16,7 @@ input_shape = (256, 256, 1)
 latent_dim = 2
 
 """decoder layer of VAE Network"""
-def decoder(pretrained_weights=None):
+def decoder(pretrained=True, pretrained_weights=None):
     """
     :param: load pretrained_weights and 
             set vae range and number of outputs 
@@ -33,7 +33,7 @@ def decoder(pretrained_weights=None):
     x = Conv2DTranspose(1, (3, 3), padding='same', activation='sigmoid', name='decoder_output')(x)
     model = Model(decoder_input, x, name='decoder')
 
-    if pretrained_weights:
+    if pretrained:
         model.load_weights(pretrained_weights)
 
     return model

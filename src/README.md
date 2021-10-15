@@ -26,7 +26,7 @@ _pretrained weights are stored in weights folder_
     chmod +x ./run.sh
 or 
 
-    streamlit run ./main.py
+    streamlit run ./ui.py
 
 Automatically open up this link
 * Local URL: http://localhost:8502
@@ -56,8 +56,8 @@ Automatically open up this link
 |-U| --unet       |     Select U-Net|
 |-R| --resunet     |    Select Residual U-Net|
 |-V| --vae          |   Select Variational Autoencoder|
-|-vr | --vae_range   |  Autoencoder Range [1, 20]|
-|-on | --output_number| Number of Output [1, 20]|
+|-vr | --vae_range   |  Autoencoder Range [1, 30]|
+|-on | --output_number| Number of Output [1, 30]|
 
 **all outputs stored in images directory**
 

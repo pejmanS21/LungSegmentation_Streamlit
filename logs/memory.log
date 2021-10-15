@@ -1,0 +1,87 @@
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    14    331.7 MiB    331.7 MiB           1   @profile(stream=fp)
+    15                                         def load_model(model_name, pretrained: bool = True):
+    16    331.7 MiB      0.0 MiB           1       if model_name == 'U-Net':
+    17                                                 model = Unet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_unet.hdf5",
+    18                                                                       input_size=(256, 256, 1))
+    19                                             
+    20    331.7 MiB      0.0 MiB           1       elif model_name == 'ResidualU':
+    21    383.5 MiB     51.8 MiB           2           model = ResUnet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_res_unet.hdf5",
+    22    331.7 MiB      0.0 MiB           1                                 input_size=(256, 256, 1))
+    23                                             
+    24                                             elif model_name == 'Autoencoder (VAE)':
+    25                                                 model = decoder(pretrained=pretrained, pretrained_weights="../weights/decoder.hdf5")
+    26                                             
+    27    383.5 MiB      0.0 MiB           1       return model
+
+
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    14    383.5 MiB    383.5 MiB           1   @profile(stream=fp)
+    15                                         def load_model(model_name, pretrained: bool = True):
+    16    383.5 MiB      0.0 MiB           1       if model_name == 'U-Net':
+    17    428.9 MiB     45.4 MiB           2           model = Unet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_unet.hdf5",
+    18    383.5 MiB      0.0 MiB           1                                 input_size=(256, 256, 1))
+    19                                             
+    20                                             elif model_name == 'ResidualU':
+    21                                                 model = ResUnet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_res_unet.hdf5",
+    22                                                                       input_size=(256, 256, 1))
+    23                                             
+    24                                             elif model_name == 'Autoencoder (VAE)':
+    25                                                 model = decoder(pretrained=pretrained, pretrained_weights="../weights/decoder.hdf5")
+    26                                             
+    27    428.9 MiB      0.0 MiB           1       return model
+
+
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    14    428.9 MiB    428.9 MiB           1   @profile(stream=fp)
+    15                                         def load_model(model_name, pretrained: bool = True):
+    16    428.9 MiB      0.0 MiB           1       if model_name == 'U-Net':
+    17                                                 model = Unet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_unet.hdf5",
+    18                                                                       input_size=(256, 256, 1))
+    19                                             
+    20    428.9 MiB      0.0 MiB           1       elif model_name == 'ResidualU':
+    21                                                 model = ResUnet_Builder(pretrained=pretrained, pretrained_weights="../weights/cxr_seg_res_unet.hdf5",
+    22                                                                       input_size=(256, 256, 1))
+    23                                             
+    24    428.9 MiB      0.0 MiB           1       elif model_name == 'Autoencoder (VAE)':
+    25    477.1 MiB     48.2 MiB           1           model = decoder(pretrained=pretrained, pretrained_weights="../weights/decoder.hdf5")
+    26                                             
+    27    477.1 MiB      0.0 MiB           1       return model
+
+
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    35    477.1 MiB    477.1 MiB           1   @profile(stream=fp)
+    36                                         def del_model(model):
+    37    477.1 MiB      0.0 MiB           1       del model
+
+
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    35    477.1 MiB    477.1 MiB           1   @profile(stream=fp)
+    36                                         def del_model(model):
+    37    477.1 MiB      0.0 MiB           1       del model
+
+
+Filename: model_loader.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    35    477.1 MiB    477.1 MiB           1   @profile(stream=fp)
+    36                                         def del_model(model):
+    37    477.1 MiB      0.0 MiB           1       del model
+
+

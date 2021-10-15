@@ -1,6 +1,7 @@
 """
     U-Net model Implemented here. first define loss functons, then create unet class.
 """
+import numpy as np
 from typing import Tuple
 import tensorflow as tf
 import tensorflow.keras
@@ -50,9 +51,10 @@ class Unet_Builder(SegmentationModel):
         :Description: get a CXR image with size of (256, 256, 1) and return a mask with same size
         :Results: 98% AUC, 98% Accuracy
     """
-    def __init__(self, pretrained_weights: str,
+    def __init__(self, pretrained_weights: str, pretrained: bool = True, 
                  input_size: Tuple[int, int, int] = (256, 256, 1)):
 
+        self.pretrained = pretrained
         self.pretrained_weights = pretrained_weights
         self.input_size = input_size
         self.model = self.__load_model()
@@ -100,11 +102,33 @@ class Unet_Builder(SegmentationModel):
 
         adam = tensorflow.keras.optimizers.Adam()
         model.compile(optimizer=adam, loss=loss, metrics=metrics)
-        """----- Load Weight -----"""
-        model.load_weights(self.pretrained_weights)
+        if self.pretrained == True:
+            """----- Load Weight -----"""
+            model.load_weights(self.pretrained_weights)
         return model
-    """----- predict mask -----"""
+    
+    """----- mask prediction -----"""
     def predict(self, image):
         return self.model.predict(image)
-
     
+    """----- print summary -----"""
+    def summary(self):
+        return self.model.summary()
+
+    """----- model fitting for training -----"""
+    def fit(self, X, y=None, validation_data: Tuple = None, batch_size=None, epochs=1):
+        res = self.model.fit(X, y, 
+                            validation_data=validation_data, 
+                            batch_size=batch_size, 
+                            epochs=epochs)
+        return res
+
+    """----- save model as h5 or hdf5 -----"""
+    def save_model(self, saved_model_name:str, weights:bool=False):
+        if weights:
+            self.model.save_weights("../weights/" + saved_model_name + ".hdf5")
+        else:
+            self.model.save("../weights/" + saved_model_name + ".h5")
+
+
+
