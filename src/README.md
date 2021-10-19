@@ -33,15 +33,8 @@ Automatically open up this link
 
 # Results
 ## APP 
-![App](https://user-images.githubusercontent.com/73995528/133257206-7e2f8ea7-b7c9-48e2-b7a0-8806052bdd4a.png)
-------------------------------------------------------------------
+![streamlit_new](https://user-images.githubusercontent.com/73995528/137863603-496c0356-6286-48ab-80e8-58c94342f489.gif)
 
-## Output
-![results](https://user-images.githubusercontent.com/73995528/133257338-38b94363-39ff-43fa-9d41-161344a644ce.png)
-------------------------------------------------------------------
-
-# Variational Autoencoders (VAE)
-![Screenshot from 2021-09-15 16-21-59](https://user-images.githubusercontent.com/73995528/133428563-3f6eb493-824f-4498-a586-7eb6acdfc103.png)
 --------------------------------------------------------------------
 
 # Parser
